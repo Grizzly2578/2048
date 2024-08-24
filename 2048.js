@@ -52,20 +52,20 @@ function updateTile(tile, num) {
 }
 
 document.addEventListener('keyup', (e) => {
-    if (e.code == "ArrowLeft" || "KeyA") {
+    if (e.code == "ArrowLeft" || "a") {
         slideLeft();
         setTwo();
     }
-    else if (e.code == "ArrowRight" || "KeyD") {
+    else if (e.code == "ArrowRight" || "d") {
         slideRight();
         setTwo();
     }
-    else if (e.code == "ArrowUp" || "KeyW") {
+    else if (e.code == "ArrowUp" || "w") {
         slideUp();
         setTwo();
 
     }
-    else if (e.code == "ArrowDown"|| "KeyS") {
+    else if (e.code == "ArrowDown"|| "w") {
         slideDown();
         setTwo();
     }
